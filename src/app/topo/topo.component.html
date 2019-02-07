@@ -1,0 +1,118 @@
+
+<div class="fixed-top" id="navbar" >
+  <div class="bg-light">
+    <div class="container my-3">
+      <div class="row d-flex align-items-center">
+          <div class="col-md-4">
+              <a  routerLink="" class="navbar-brand">
+                <img  src="/assets/logo.png" />
+              </a>
+          </div>
+          <div class="col-md-6">
+            <input class="form-control form-control-sm" type="text" placeholder="Pesquise" #termoDaPesquisa (keyup)="pesquisa(termoDaPesquisa.value)">
+            
+            <ul class="list-group" style="position: absolute; z-index: 999">
+              <li class="list-group-item" *ngFor="let oferta of ofertas | async">
+                <a [routerLink]="['/oferta', oferta.id]" (click)="limpaPesquisa()">
+                  {{ oferta.titulo | descicaoReduzida: 13 }}
+                </a>
+              </li>
+            </ul>
+          </div>
+        <div class="col-md-2 d-flex justify-content-end ">
+          
+            <a  class=""><img src="/assets/carrinho.png"  /></a>
+      </div>
+    </div>
+  </div>
+
+  <div> 
+    <nav class="nav navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand ml-2" routerLink="" >Riosoft</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlink" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navlink">
+        <ul class="navbar-nav  text-center ml-5"  >
+          <li class="nav-item ">
+            <a class="nav-link" routerLinkActive="active" routerLink="restaurantes">Restaurantes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" routerLink="diversao">Diversão</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">LINK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">LINK</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+<!--
+  
+  <div class="fixed-top" id="navbar">
+  <nav class="navbar navbar-light bg-light" >
+    <div class="container ">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-4">
+            <a  routerLink="" class="navbar-brand">
+              <img  src="/assets/logo.png" />
+            </a>
+        </div>
+        <div class="col-md-6">
+          <input class="form-control form-control-sm" type="text" placeholder="Pesquise" #termoDaPesquisa (keyup)="pesquisa(termoDaPesquisa.value)">
+          <ul class="list-group" style="position: absolute">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        </div>
+      <div class="col-md-2 d-flex justify-content-end ">
+        
+          <a  class=""><img src="/assets/carrinho.png"  /></a>
+    </div>
+        
+      </div>
+    </div>
+  </nav>
+
+  
+    
+  <nav class="nav navbar-expand-sm navbar-dark bg-dark ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlink" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navlink">
+      <ul class="navbar-nav  text-center" >
+        <li class="nav-item ">
+          <a class="nav-link" routerLinkActive="active" routerLink="restaurantes">Restaurantes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="diversao">Diversão</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">LINK</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">LINK</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+
+</div>
+    
+</div>
+
+
+
+
+-->
