@@ -194,81 +194,39 @@
       "id": 1
     },
     {
-      "endereco": "BrunoMathias",
+      "endereco": "Testes",
+      "numero": "32",
       "complemento": "",
-      "numero": "27",
       "formaPagamento": "dinheiro",
       "id": 2
     },
     {
-      "endereco": "sdfsdfsd",
+      "endereco": "Endereço Teste",
+      "numero": "22",
       "complemento": "",
-      "numero": "84",
       "formaPagamento": "dinheiro",
       "id": 3
     },
     {
-      "endereco": "ghjghjgh",
+      "endereco": "Testes",
+      "numero": "33",
       "complemento": "",
-      "numero": "98",
       "formaPagamento": "dinheiro",
       "id": 4
     },
     {
-      "endereco": "hffgdfgh",
-      "complemento": "",
-      "numero": "27",
+      "endereco": "dsfsdf",
+      "numero": "66",
+      "complemento": "werwe",
       "formaPagamento": "dinheiro",
       "id": 5
     },
     {
-      "endereco": "sdfsdfsd",
+      "endereco": "TEste",
+      "numero": "32",
       "complemento": "",
-      "numero": "35",
       "formaPagamento": "dinheiro",
       "id": 6
-    },
-    {
-      "endereco": "erterg",
-      "complemento": "asd",
-      "numero": "38",
-      "formaPagamento": "dinheiro",
-      "id": 7
-    },
-    {
-      "endereco": "fghnfgh",
-      "complemento": "",
-      "numero": "84",
-      "formaPagamento": "dinheiro",
-      "id": 8
-    },
-    {
-      "endereco": "fghnfgh",
-      "complemento": "",
-      "numero": "84",
-      "formaPagamento": "dinheiro",
-      "id": 9
-    },
-    {
-      "endereco": "fghnfgh",
-      "complemento": "",
-      "numero": "84",
-      "formaPagamento": "dinheiro",
-      "id": 10
-    },
-    {
-      "endereco": "tjhgfjg",
-      "complemento": "",
-      "numero": "88",
-      "formaPagamento": "dinheiro",
-      "id": 11
-    },
-    {
-      "endereco": "dfghdgh",
-      "complemento": "",
-      "numero": "99",
-      "formaPagamento": "debito",
-      "id": 12
     }
   ]
 }

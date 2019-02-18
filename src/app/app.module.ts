@@ -6,6 +6,7 @@ import { NgModule, LOCALE_ID } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { registerLocaleData } from "@angular/common";
 import localePt from "@angular/common/locales/pt";
+import { ReactiveFormsModule } from '@angular/forms'
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -42,7 +43,10 @@ import { OrdemCompraSucessoComponent } from './ordem-compra-sucesso/ordem-compra
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    RouterModule.forRoot(ROUTES) //Mapa de Rotas
+    RouterModule.forRoot(ROUTES), //Mapa de Rotas
+    //FormsModule,
+    ReactiveFormsModule
+    
     
   
   ],
